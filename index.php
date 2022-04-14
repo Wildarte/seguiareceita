@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/bootstrap-icons-1.8.1/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/css/m-caroussel.css">
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Segui a Receita</title>
@@ -34,23 +37,43 @@
                 </div>
                 
             </div>
-            <div>
-                <ul>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                </ul>
+            <div class="opt_top">
+                <div class="opt_top_content container">
+                    <ul>
+                        <li><a href="#">Doces</a></li>
+                        <li><a href="#">Salgados</a></li>
+                        <li><a href="#">Bolos</a></li>
+                        <li><a href="#">Sobremesas</a></li>
+                        <li><a href="#">Tortas</a></li>
+                    </ul>
+                </div>
+                
             </div>
         </div>
     </header>
 
     <main>
 
-        <section>
-            <div>
-
+        <section class="sec_intro">
+            <div class="sec_intro_content container">
+                <div class="owl-carousel m_carousel">
+                    <div class="item_carousel">
+                        <a href="#">
+                            <img src="assets/img/intro1.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="item_carousel">
+                        <a href="#">
+                            <img src="assets/img/intro2.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="item_carousel">
+                        <a href="#">
+                            <img src="assets/img/intro3.jpg" alt="">
+                        </a>
+                    </div>
+                    
+                </div>
             </div>
         </section>
 
@@ -157,6 +180,30 @@
             <p>seguieareceita.com</p>
         </div>
     </footer>
+
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $(".owl-carousel").owlCarousel({
+                loop:true,
+                margin:10,
+                nav:true,
+                responsive:{
+                    0:{
+                        items:1
+                    },
+                    600:{
+                        items:1
+                    },
+                    1000:{
+                        items:1
+                    }
+                }
+            });
+        });
+    </script>
     
 </body>
 </html>

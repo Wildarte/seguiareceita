@@ -1,0 +1,12 @@
+.m_carousel{
+    border: 1px solid yellow;
+}
+.m_carousel a{
+    width: 100%;
+    height: 400px;
+}
+.m_carousel a img{
+    height: 450px;
+    object-fit: cover;
+    object-position: center;
+}
