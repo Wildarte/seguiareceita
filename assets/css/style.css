@@ -3,6 +3,7 @@
     --color-main: #C7100A;
     --color-second: #ea322c;
     --color-dark-main: #940007;
+    --color-yellow: #FFDB76
 }
 
 .container{
@@ -14,8 +15,7 @@
 }
 
 .header_top{
-    
-    border-bottom: 1px solid #999;
+
 }
 .header_top_content{
     display: flex;
@@ -85,6 +85,9 @@
 }
 
 .opt_top{
+    background-color: #ffe6e6;
+    border-top: 1px solid #ffb3b3;
+    border-bottom: 1px solid #ffb3b3;
 }
 .opt_top_content{
     display: flex;
@@ -111,5 +114,16 @@
 
 
 /* section intro */
-
+.sec_intro{
+    background-image: url('../img/background\ _intro.jpg');
+    padding-top: 10px ;
+}
+.sec_intro_content{
+    position: relative;
+    padding-top: 50px;
+}
+.sec_intro_content > img{
+    position: absolute;
+    top: -20px;
+}
 /* section intro */

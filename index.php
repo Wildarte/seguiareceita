@@ -56,6 +56,7 @@
 
         <section class="sec_intro">
             <div class="sec_intro_content container">
+                <img src="assets/img/book.png" alt="">
                 <div class="owl-carousel m_carousel">
                     <div class="item_carousel">
                         <a href="#">
@@ -190,6 +191,9 @@
                 loop:true,
                 margin:10,
                 nav:true,
+                autoplay:true,
+                autoplayTimeout:2000,
+                autoplayHoverPause:true,
                 responsive:{
                     0:{
                         items:1
@@ -204,6 +208,6 @@
             });
         });
     </script>
-    
+
 </body>
 </html>
