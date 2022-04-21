@@ -45,6 +45,7 @@
 
     <script src="assets/js/jquery-3.6.0.min.js"></script>
     <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/script.js"></script>
 
     <script>
         $(document).ready(function(){

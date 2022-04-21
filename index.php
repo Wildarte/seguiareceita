@@ -4,7 +4,9 @@
 
         <section class="sec_intro">
             <div class="sec_intro_content container">
-                <img src="assets/img/book.png" alt="">
+                <img class="book_img" src="assets/img/book.png" alt="">
+                <img class="book_img_response" src="assets/img/book-mobile.png" alt="">
+                <img class="book_img_response2" src="assets/img/book-mobile2.png" alt="">
                 <div class="owl-carousel m_carousel">
                     <div class="item_carousel">
                         <a href="#">
@@ -28,6 +30,7 @@
 
         <section class="section_second_menu container_full">
             <div class="content_second_menu container">
+                
                 <ul class="second_menu">
                     <li><a href=""><img src="assets/img/icons/cake-icon.png" alt=""> Bolos</a></li>
                     <li><a href=""><img src="assets/img/icons/lanche-icon.png" alt=""> Lanches</a></li>

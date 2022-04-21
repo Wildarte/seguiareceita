@@ -24,6 +24,10 @@
                         <a href="#">
                             <img src="assets/img/logo-small.png" alt="">
                         </a>
+                        <div class="header_social_response">
+                            <a href="#"><i class="bi bi-facebook"></i></a>
+                            <a href="#"><i class="bi bi-instagram"></i></a>
+                        </div>
                     </div>
                     <div class="header_form">
                         <form action="">
@@ -41,10 +45,15 @@
             </div>
             <div class="opt_top">
                 <div class="opt_top_content container">
+                    <div class="btn_menu_one">
+                        <i class="bi bi-list"></i>
+                    </div>
                     <ul>
                         <li><a href="#">Doces</a></li>
                         <li><a href="#">Salgados</a></li>
                         <li><a href="#">Bolos</a></li>
+                        <li><a href="#">Sobremesas</a></li>
+                        <li><a href="#">Tortas</a></li>
                         <li><a href="#">Sobremesas</a></li>
                         <li><a href="#">Tortas</a></li>
                     </ul>
